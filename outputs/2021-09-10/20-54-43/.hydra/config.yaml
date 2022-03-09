@@ -1,0 +1,122 @@
+optim:
+  learning_rate: 0.00015
+  learning_anneal: 0.99
+  weight_decay: 1.0e-05
+  eps: 1.0e-08
+  betas:
+  - 0.9
+  - 0.999
+model:
+  rnn_type: lstm
+  hidden_size: 1024
+  hidden_layers: 5
+checkpoint:
+  _target_: pytorch_lightning.callbacks.ModelCheckpoint
+  filepath: null
+  monitor: wer
+  verbose: true
+  save_last: null
+  save_top_k: 1
+  save_weights_only: false
+  mode: auto
+  period: 1
+  prefix: ''
+  dirpath: /data/asreeram/deepspeech.pytorch/check_point/
+  filename: null
+trainer:
+  _target_: pytorch_lightning.trainer.Trainer
+  logger: true
+  checkpoint_callback: true
+  callbacks: ???
+  default_root_dir: null
+  gradient_clip_val: 400.0
+  process_position: 0
+  num_nodes: 1
+  num_processes: 1
+  gpus: 1
+  auto_select_gpus: false
+  tpu_cores: null
+  log_gpu_memory: null
+  progress_bar_refresh_rate: 1
+  overfit_batches: 0.0
+  track_grad_norm: -1
+  check_val_every_n_epoch: 1
+  fast_dev_run: false
+  accumulate_grad_batches: 1
+  max_epochs: 22
+  min_epochs: 1
+  max_steps: null
+  min_steps: null
+  limit_train_batches: 1.0
+  limit_val_batches: 1.0
+  limit_test_batches: 1.0
+  val_check_interval: 1.0
+  flush_logs_every_n_steps: 100
+  log_every_n_steps: 50
+  accelerator: ddp
+  sync_batchnorm: false
+  precision: 16
+  weights_summary: top
+  weights_save_path: null
+  num_sanity_val_steps: 2
+  truncated_bptt_steps: null
+  resume_from_checkpoint: null
+  profiler: null
+  benchmark: false
+  deterministic: false
+  reload_dataloaders_every_epoch: false
+  auto_lr_find: false
+  replace_sampler_ddp: true
+  terminate_on_nan: false
+  auto_scale_batch_size: false
+  prepare_data_per_node: true
+  plugins: ddp_sharded
+  amp_backend: native
+  amp_level: O2
+  distributed_backend: null
+  automatic_optimization: null
+  move_metrics_to_cpu: false
+  enable_pl_optimizer: false
+data:
+  train_path: data/libri_train_manifest.json
+  val_path: data/libri_val_manifest.json
+  batch_size: 64
+  num_workers: 8
+  labels_path: labels.json
+  spect:
+    sample_rate: 16000
+    window_size: 0.02
+    window_stride: 0.01
+    window: hamming
+  augmentation:
+    speed_volume_perturb: false
+    spec_augment: true
+    noise_dir: /data/asreeram/deepspeech.pytorch/noise_dir
+    noise_prob: 0.4
+    noise_min: 0.0
+    noise_max: 0.5
+    noise_levels:
+    - 0.0
+    - 0.5
+    perceptual_noise: true
+    fft_len: 512
+    win_length: 256
+    hop_length: 128
+    sample_rate: 16000
+augmentation:
+  speed_volume_perturb: false
+  spec_augment: false
+  noise_dir: /data/asreeram/deepspeech.pytorch/noise_dir
+  noise_prob: 0.4
+  noise_min: 0.0
+  noise_max: 0.5
+  noise_levels:
+  - 0.0
+  - 0.5
+  perceptual_noise: true
+  fft_len: 512
+  win_length: 256
+  hop_length: 128
+  sample_rate: 16000
+seed: 123456
+load_auto_checkpoint: true

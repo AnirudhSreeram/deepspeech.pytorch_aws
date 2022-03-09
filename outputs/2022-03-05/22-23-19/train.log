@@ -1,0 +1,12 @@
+[2022-03-05 22:23:20,738][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2022-03-05 22:23:20,738][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for 1 nodes.
+[2022-03-05 22:23:24,454][root][INFO] - Training is not really distributed, single rank. Deactivating buckets
+[2022-03-05 22:23:24,454][root][INFO] - ShardedDDP bucket size: 0.00M parameters, model size 82.61M parameters
+[2022-03-05 22:23:34,650][root][ERROR] - There is no such a hdf5 file (/home1/asreeram/waveGAN/waveGAN/arctic_slt_parallel_wavegan.v1/stats.h5).
+[2022-03-05 22:23:34,657][root][ERROR] - There is no such a hdf5 file (/home1/asreeram/waveGAN/waveGAN/arctic_slt_parallel_wavegan.v1/stats.h5).
+[2022-03-05 22:23:34,664][root][ERROR] - There is no such a hdf5 file (/home1/asreeram/waveGAN/waveGAN/arctic_slt_parallel_wavegan.v1/stats.h5).
+[2022-03-05 22:23:34,682][root][ERROR] - There is no such a hdf5 file (/home1/asreeram/waveGAN/waveGAN/arctic_slt_parallel_wavegan.v1/stats.h5).
+[2022-03-05 22:23:34,683][root][ERROR] - There is no such a hdf5 file (/home1/asreeram/waveGAN/waveGAN/arctic_slt_parallel_wavegan.v1/stats.h5).
+[2022-03-05 22:23:34,694][root][ERROR] - There is no such a hdf5 file (/home1/asreeram/waveGAN/waveGAN/arctic_slt_parallel_wavegan.v1/stats.h5).
+[2022-03-05 22:23:34,739][root][ERROR] - There is no such a hdf5 file (/home1/asreeram/waveGAN/waveGAN/arctic_slt_parallel_wavegan.v1/stats.h5).
+[2022-03-05 22:23:34,746][root][ERROR] - There is no such a hdf5 file (/home1/asreeram/waveGAN/waveGAN/arctic_slt_parallel_wavegan.v1/stats.h5).

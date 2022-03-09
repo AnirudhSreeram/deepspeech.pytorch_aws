@@ -1,0 +1,9 @@
+[2022-03-08 00:57:23,532][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2022-03-08 00:57:23,532][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for 1 nodes.
+[2022-03-08 00:57:27,220][root][INFO] - Training is not really distributed, single rank. Deactivating buckets
+[2022-03-08 00:57:27,220][root][INFO] - ShardedDDP bucket size: 0.00M parameters, model size 82.61M parameters
+[2022-03-08 01:10:11,798][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 01:25:35,264][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 01:40:55,146][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 01:56:18,270][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 02:11:39,578][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.

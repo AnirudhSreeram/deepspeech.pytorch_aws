@@ -1,0 +1,6 @@
+*__pycache__
+data/
+check_point/
+ft_melgan7030_noiseInjected.ckpt
+wavegan_30-70-20epochs.ckpt
+epoch\=16-step\=51614.ckpt

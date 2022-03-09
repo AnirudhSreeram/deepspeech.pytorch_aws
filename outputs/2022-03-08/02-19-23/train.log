@@ -1,0 +1,14 @@
+[2022-03-08 02:19:24,719][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2022-03-08 02:19:24,720][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for 1 nodes.
+[2022-03-08 02:19:28,449][root][INFO] - Training is not really distributed, single rank. Deactivating buckets
+[2022-03-08 02:19:28,449][root][INFO] - ShardedDDP bucket size: 0.00M parameters, model size 82.61M parameters
+[2022-03-08 02:31:43,542][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 02:46:18,738][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 03:00:51,133][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 03:15:23,228][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 03:29:55,748][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 03:44:28,184][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 03:59:02,994][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 04:13:38,663][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 04:28:12,981][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+[2022-03-08 04:42:48,221][root][WARNING] - ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.

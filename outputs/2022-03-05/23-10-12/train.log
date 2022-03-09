@@ -1,0 +1,12 @@
+[2022-03-05 23:10:14,056][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2022-03-05 23:10:14,057][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for 1 nodes.
+[2022-03-05 23:10:17,892][root][INFO] - Training is not really distributed, single rank. Deactivating buckets
+[2022-03-05 23:10:17,892][root][INFO] - ShardedDDP bucket size: 0.00M parameters, model size 82.61M parameters
+[2022-03-05 23:10:26,054][root][INFO] - Successfully registered stats as buffer.
+[2022-03-05 23:10:26,085][root][INFO] - Successfully registered stats as buffer.
+[2022-03-05 23:10:26,086][root][INFO] - Successfully registered stats as buffer.
+[2022-03-05 23:10:26,085][root][INFO] - Successfully registered stats as buffer.
+[2022-03-05 23:10:26,085][root][INFO] - Successfully registered stats as buffer.
+[2022-03-05 23:10:26,088][root][INFO] - Successfully registered stats as buffer.
+[2022-03-05 23:10:26,092][root][INFO] - Successfully registered stats as buffer.
+[2022-03-05 23:10:26,148][root][INFO] - Successfully registered stats as buffer.

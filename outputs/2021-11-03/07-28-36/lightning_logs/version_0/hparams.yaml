@@ -1,0 +1,48 @@
+labels:
+- _
+- ''''
+- A
+- B
+- C
+- D
+- E
+- F
+- G
+- H
+- I
+- J
+- K
+- L
+- M
+- 'N'
+- O
+- P
+- Q
+- R
+- S
+- T
+- U
+- V
+- W
+- X
+- 'Y'
+- Z
+- ' '
+model_cfg:
+  rnn_type: lstm
+  hidden_size: 1024
+  hidden_layers: 5
+precision: 16
+optim_cfg:
+  learning_rate: 3.0e-05
+  learning_anneal: 0.99
+  weight_decay: 1.0e-05
+  eps: 1.0e-08
+  betas:
+  - 0.9
+  - 0.999
+spect_cfg:
+  sample_rate: 16000
+  window_size: 0.02
+  window_stride: 0.01
+  window: hamming

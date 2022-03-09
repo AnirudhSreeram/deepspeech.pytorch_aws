@@ -1,0 +1,3 @@
+- +configs=librispeech
+- ++checkpoint.prefix=librispeec
+- ++checkpoint.dirpath=/data/asreeram/deepspeech.pytorch/check_point
